@@ -13,7 +13,7 @@ body {
 
 .card {
     min-width: 850px;
-    background: whitesmoke;   /*del*/
+    /*background: whitesmoke;   /*del*/
     position: absolute;
     top: 40%;
     left: 50%;
@@ -27,4 +27,34 @@ body {
     inset 0 0 .5vw 0.2vw #7476ff,
     inset 0 0 .5vw 0.2vw #3134ff,
     inset 0 0 .5vw 0.2vw #0408fb;
+    border-radius: 22px;
 }
+
+.card h1 {
+    font-family: Mali, sans-serif;
+    font-size: 130px;
+    font-weight: 300;
+    color: #f1f1f1e3;
+    text-shadow: 
+    
+    .1vw 0vw .25vw #7476ff,
+    .15vw 0vw .25vw #7476ff,
+
+    .1vw 0vw .1vw #3134ff,
+    .15vw 0vw .1vw #3134ff,
+    .4vw 0vw .1vw #3134ff,
+    
+    .1vw 0vw .2vw #3134ff,
+    .15vw 0vw .2vw #3134ff,
+    .4vw 0vw .2vw #3134ff,
+
+
+
+    ;
+}
+
+
+
+/* 0 0 vw vw color = {x, y , flou, spread, color}
+inset=in.card for shadow. 
+*/
